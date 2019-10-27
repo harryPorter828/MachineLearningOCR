@@ -3,8 +3,8 @@ file which describes the location of each character in each image in the 'Images
 'formatTrainingImages.py' and 'createTrainingData.py' produce an .npy file, from which 'createModel.py'
 can be used to create a classification model which can classify 250 different characters.
 
-Run 'InftyCDB-1.EXE' to download images used to get training data. Move csv file
-created from running 'InftyCDB-1.EXE'
+Go to http://www.inftyproject.org/en/database.html to download the InftyCDB-1 database used for the project.
+Transfer all images from the download to the 'images' foler and the csv file to the main project folder.
 
 Key dependency : TensorFlow
 I set up a tensorflow environement to run the code
